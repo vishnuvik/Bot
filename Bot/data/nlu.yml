@@ -1,0 +1,49 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey there
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+
+- intent: addition
+  examples: |
+    - what is (num1)+(num2)
+    - What is 2 plus 2?
+    - Add 5 and 10
+    - Calculate 3 + 7
+    - 6 plus 4
+    - 8 added to 3
+    - Sum of 9 and 2
+
+
+- intent: subtraction
+  examples: |
+    - What is 10 minus 5?
+    - Subtract 2 from 8
+    - Calculate 15 - 6
+
+- intent: multiplication
+  examples: |
+    - What is 3 times 4?
+    - Multiply 5 by 6
+    - Calculate 8 * 9
+
+- intent: division
+  examples: |
+    - What is 10 divided by 2?
+    - Divide 100 by 5
+    - Calculate 50 / 10
+
+- intent: unknown
+  examples: |
+    - What is the weather like today?
+    - How do I get to the mall?
+    - Tell me a joke

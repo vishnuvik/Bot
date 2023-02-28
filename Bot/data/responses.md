@@ -1,0 +1,29 @@
+## utter_greet
+- text: "Hello! I'm a mathematical bot. How can I help you today?"
+
+## utter_goodbye
+- text: "Goodbye! Have a nice day."
+
+## utter_thanks
+- text: "You're welcome! Is there anything else I can help you with?"
+
+## utter_default
+- text: "I'm sorry, I didn't understand. Can you please rephrase or try a different question?"
+
+## utter_addition
+- text: "The sum of {num1} and {num2} is {result}."
+
+## utter_subtraction
+- text: "The difference between {num1} and {num2} is {result}."
+
+## utter_multiplication
+- text: "The product of {num1} and {num2} is {result}."
+
+## utter_division
+- text: "The quotient of {num1} divided by {num2} is {result}."
+
+## utter_error
+- text: "I'm sorry, something went wrong with the calculation. Please try again."
+
+## utter_unknown
+- text: "I'm sorry, I don't know how to perform that operation. Please try a different one."

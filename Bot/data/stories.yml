@@ -1,0 +1,23 @@
+# Story for performing addition
+- story: math_addition
+  steps:
+  - intent: math_addition
+  - action: custom_math_addition
+
+# Story for performing subtraction
+- story: math_subtraction
+  steps:
+  - intent: math_subtraction
+  - action: custom_math_subtraction
+
+# Story for performing multiplication
+- story: math_multiplication
+  steps:
+  - intent: math_multiplication
+  - action: custom_math_multiplication
+
+# Story for performing division
+- story: math_division
+  steps:
+  - intent: math_division
+  - action: custom_math_division

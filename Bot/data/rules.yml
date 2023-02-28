@@ -1,0 +1,41 @@
+version: '2.0'
+
+rules:
+  - rule: Respond to greeting
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Respond to goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Respond to thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+
+  - rule: Perform addition
+    steps:
+      - intent: addition
+      - action: action_math
+
+  - rule: Perform subtraction
+    steps:
+      - intent: subtraction
+      - action: action_math
+
+  - rule: Perform multiplication
+    steps:
+      - intent: multiplication
+      - action: action_math
+
+  - rule: Perform division
+    steps:
+      - intent: division
+      - action: action_math
+
+  - rule: Default fallback action
+    steps:
+      - action: utter_default
